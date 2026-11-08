@@ -6,20 +6,29 @@ A full-stack web application that serves as a digital health passport for pets. 
 
 This repository is a monorepo consisting of two main components:
 
-*   **Frontend:** A responsive Single Page Application (SPA) built with React, TypeScript, and Vite.
-*   **Backend:** A secure REST API built with Java 21, Spring Boot, and PostgreSQL.
+* **Frontend:** A responsive Single Page Application (SPA) built with React, TypeScript, and Vite.
+* **Backend:** A secure REST API built with Java 21, Spring Boot, and PostgreSQL.
 
 ## Repository Structure
 
 ```text
 PetEBooklet/
-├── Backend/                 # Spring Boot Java application
-│   ├── src/                 # Backend source code
+├── backend/                 # Spring Boot Java application
+│   ├── .mvn/                # Maven wrapper configurations
+│   ├── src/                 # Java source code and resources (main/test)
+│   ├── pom.xml              # Maven project dependencies
+│   ├── mvnw / mvnw.cmd      # Maven wrapper executables
 │   └── README.md            # Backend-specific documentation and setup
-└── Frontend/                # React TypeScript application
-    ├── src/                 # Frontend source code
-    └── README.md            # Frontend-specific documentation and setup
-```
+│
+├── frontend/                # React TypeScript application
+│   ├── public/              # Static assets
+│   ├── src/                 # React components, styles, and config
+│   ├── package.json         # Node.js dependencies and scripts
+│   ├── vite.config.ts       # Vite bundler configuration
+│   └── README.md            # Frontend-specific documentation and setup
+│
+├── .gitignore               # Root git ignore file
+└── README.md                # This file (Root documentation)
 
 ## Prerequisites
 

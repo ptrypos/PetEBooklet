@@ -77,10 +77,10 @@ The API will launch and listen for requests on `http://localhost:8080`.
 
 ## Authors
 
-**[Your Name]**
+**ptrypos**
 
-* [Website / Portfolio](https://yourwebsite.com)
-* [GitHub](https://github.com/yourusername)
-* [LinkedIn](https://www.linkedin.com/in/yourprofile)
+* [Website / Portfolio](https://ptrypos.me)
+* [GitHub](https://github.com/ptrypos)
+* [LinkedIn](https://www.linkedin.com/in/panagiotis-trypos-983abb242/)
 
 ```

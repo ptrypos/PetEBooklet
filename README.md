@@ -43,10 +43,10 @@ To run this project locally, you will need the following installed on your machi
 Create a local PostgreSQL database named `pet_ebooklet_db`.
 
 ### 2. Start the Backend
-Navigate to the `Backend` directory, configure your environment variables, and run the Spring Boot server. Detailed instructions are in the [Backend README](./backend/README.md).
+Navigate to the `Backend` directory, configure your environment variables, and run the Spring Boot server. Detailed instructions are in the [backend README](./backend/README.md).
 
 ```bash
-cd Backend
+cd backend
 cp src/main/resources/application.properties.example src/main/resources/application.properties
 # Edit application.properties with your DB credentials and a JWT secret
 ./mvnw spring-boot:run
@@ -54,10 +54,10 @@ cp src/main/resources/application.properties.example src/main/resources/applicat
 The backend will run on `http://localhost:8080`.
 
 ### 3. Start the Frontend
-In a new terminal window, navigate to the `Frontend` directory, install dependencies, and start the Vite development server. Detailed instructions are in the [Frontend README](./frontend/README.md).
+In a new terminal window, navigate to the `Frontend` directory, install dependencies, and start the Vite development server. Detailed instructions are in the [frontend README](./frontend/README.md).
 
 ```bash
-cd Frontend
+cd frontend
 cp .env.example .env
 # Edit .env if your backend is running on a different URL/IP
 npm install

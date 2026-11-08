@@ -29,7 +29,7 @@ PetEBooklet/
 │
 ├── .gitignore               # Root git ignore file
 └── README.md                # This file (Root documentation)
-
+```
 ## Prerequisites
 
 To run this project locally, you will need the following installed on your machine:
